@@ -102,6 +102,13 @@ body {
     padding: 20rem 9%;
 }
 
+.form {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
 
 
 
