@@ -99,7 +99,7 @@ body {
 
 .header.active {
     box-shadow: var(--box-shadow);
-    padding: 20rem 9%;
+    padding: 2rem 9%;
 }
 
 .form {
