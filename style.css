@@ -94,12 +94,12 @@ html {
 }
 
 body {
-    height: 300rem;
+    height:300rem;
 }
 
 .header.active {
-    box-shadow: var(--box-shadow);
-    padding: 2rem 9%;
+    box-shadow:var(--box-shadow);
+    padding:2rem 9%;
 }
 
 .form {
@@ -113,12 +113,20 @@ body {
 .login-form-container {
     position: fixed;
     top: 0; left: 0;
+    z-index: 1000;
     height: 100%;
     width: 100%;
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, .9);
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.login-form-container form {
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: .5rem;
+    box-shadow: var(--box-shadow);
 }
 
 
@@ -170,7 +178,7 @@ body {
     }
 
     .header .navbar.active {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
 
     .header .navbar a {
