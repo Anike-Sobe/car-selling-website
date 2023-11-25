@@ -117,7 +117,7 @@ body {
 
 .login-form-container {
     position: fixed;
-    top: 0; left: 0;
+    top: 105%; left: 0;
     z-index: 1000;
     height: 100%;
     width: 100%;
@@ -125,6 +125,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    opacity: 0;
 }
 
 .login-form-container form {
@@ -181,6 +182,13 @@ body {
 }
 
 
+.login-form-container #close-login-form {
+    position: absolute;
+    top: 1.5rem; right: 2.5rem;
+    font-size: 5rem;
+    color: var(--black);
+    cursor: pointer;
+}
 
 
 
