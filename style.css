@@ -61,6 +61,10 @@ html {
     color: var(--yellow);
 }
 
+section {
+    padding: 2rem 9%;
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -241,7 +245,13 @@ body {
     .header.active {
         padding: 2rem;
     }
+
+    section {
+        padding: 2rem;
+    }
 }
+
+
 
 
 @media (max-width: 768px){
