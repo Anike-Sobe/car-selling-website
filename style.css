@@ -217,6 +217,15 @@ body {
 }
 
 
+.icons-container {
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+    background: #eee;
+}
+
 
 
 
