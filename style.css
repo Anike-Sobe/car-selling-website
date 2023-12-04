@@ -236,10 +236,10 @@ body {
     border-radius: .5rem;
 }
 
-.icons-container .icons i {
-    height: 6rem;
-    width: 6rem;
-    line-height: 6rem;
+.icons-container .icons #space {
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
     font-size: 2.5rem;
     border-radius: 50%;
     background: #eee;
@@ -255,6 +255,22 @@ body {
 .icons-container .icons .content p {
     color: var(--light-color);
     font-size: 1.5rem;
+}
+
+.icons-container .icons:hover {
+    background: var(--black);
+}
+
+.icons-container .icons:hover i {
+    background: var(--yellow);
+}
+
+.icons-container .icons:hover .content h3{
+    color: #fff;
+}
+
+.icons-container .icons:hover .content p{
+    background: #eee;
 }
 
 
