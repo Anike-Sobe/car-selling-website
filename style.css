@@ -65,6 +65,28 @@ section {
     padding: 2rem 9%;
 }
 
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 4.5rem;
+    color: var(--black);
+}
+
+.heading span {
+    position: relative;
+    z-index: 0;
+}
+
+.heading span::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--yellow);
+}
+
 .btn {
     display: inline-block;
     margin-top: 1rem;
@@ -224,6 +246,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap: 1.5rem;
     background: #eee;
+
 }
 
 .icons-container .icons {
@@ -236,10 +259,10 @@ body {
     border-radius: .5rem;
 }
 
-.icons-container .icons #space {
-    height: 5rem;
-    width: 5rem;
-    line-height: 5rem;
+.icons-container .icons i {
+    height: 6rem;
+    width: 6rem;
+    line-height: 6rem;
     font-size: 2.5rem;
     border-radius: 50%;
     background: #eee;
@@ -270,7 +293,7 @@ body {
 }
 
 .icons-container .icons:hover .content p{
-    background: #eee;
+    color: #eee;
 }
 
 
