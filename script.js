@@ -63,25 +63,28 @@ document.querySelector('.home').onmouseleave = () => {
 };
 
 
-var swiper = new Swiper(".mySwiper", {
+var swiper = new Swiper(".vehicles-slider", {
     slidesPerView: 1,
-    spaceBetween: 10,
+    spaceBetween: 20,
+    loop: true,
+    grabCursor: true,
+    autoplay: {
+        delay: 9500,
+        disableOnInteraction: false,
+      },
     pagination: {
       el: ".swiper-pagination",
       clickable: true,
     },
     breakpoints: {
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 20,
+      0: {
+        slidesPerView: 1,
       },
       768: {
-        slidesPerView: 4,
-        spaceBetween: 40,
+        slidesPerView: 2,
       },
-      1024: {
-        slidesPerView: 5,
-        spaceBetween: 50,
+      991: {
+        slidesPerView: 3,
       },
     },
   });
