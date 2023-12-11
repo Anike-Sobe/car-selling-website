@@ -312,6 +312,15 @@ body {
     transform: scale(.8);
 }
 
+.vehicles .vehicles-slider .swiper-slide-active img {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#vehicles .vehicles-slider .swiper-slide-active .content{
+    transform: scale(1);
+}
+
 .vehicles .vehicles-slider .box .content {
     transform: scale(0);
     padding-top: 1rem;
