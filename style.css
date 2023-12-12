@@ -359,6 +359,10 @@ body {
 
 }
 
+.swiper-pagination-bullet-active {
+    background: var(--yellow);
+}
+
 
 
 
@@ -437,6 +441,10 @@ body {
     html {
         font-size: 50%;
 
+    }
+
+    .heading {
+        font-size: 3rem;
     }
 }
 
