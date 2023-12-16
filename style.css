@@ -426,8 +426,9 @@ body {
 }
 
 .featured .featured-slider .box img {
-    height: 15rem;
+    height: 13rem;
     width: auto;
+    padding: 2rem;
 }
 
 .featured .featured-slider .box:hover img{
