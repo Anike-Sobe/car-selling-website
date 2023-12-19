@@ -463,6 +463,66 @@ body {
 .newsletter {
     padding: 6rem 2rem;
     text-align: center;
+    background: url(image/background.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid grey;
+}
+
+.newsletter .transbox {
+    margin-top: 0;
+    margin: .5rem;
+    background-color: #ffffff;
+    border: 1px solid black;
+    box-shadow: var(--box-shadow);
+    border-radius: 10px;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.newsletter h3 {
+    color: var(--yellow);
+    font-size: 3.5rem;
+}
+
+.newsletter p {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem 0;
+
+}
+
+.newsletter form {
+    margin: 1rem auto;
+    max-width: 60rem;
+    height: 5rem;
+    display: flex;
+    box-shadow: var(--box-shadow);
+    overflow: hidden;
+    border-radius: 5rem;
+}
+
+.newsletter form input[type="email"] {
+    height: 100%;
+    width: 100%;
+    font-size: 1.6rem;
+    color: var(--black);
+    text-transform: none;
+    padding: 0 2rem;
+}
+
+.newsletter form input[type="submit"] {
+    height: 100%;
+    width: 17rem;
+    font-size: 1.7rem;
+    color: var(--black);
+    background-color: var(--light-yellow);
+    cursor: pointer;
+}
+
+.newsletter form input[type="submit"]:hover {
+    background: var(--yellow);
 }
 
 
@@ -481,11 +541,13 @@ body {
 
 
 
+
+
 /* media queries */
-@media (max-width: 991px){
+@media (max-width: 991px) {
+
     html {
         font-size: 55%;
-
     }
 
     .header {
