@@ -525,6 +525,15 @@ body {
     background: var(--yellow);
 }
 
+/* REVIEW SECTION */
+.reviews .reviews-slider {
+    padding-bottom: 3rem;
+}
+
+
+.reviews .reviews-slider .box {
+    padding: 3rem;
+}
 
 
 
